@@ -1,0 +1,7 @@
+git add xx.xx				//添加文件到缓存库
+git commit -m "此引号内，内容为注释"		//将缓存库中的文件提交至Git库
+git status					//查看是否有文件未提交 或 查看是否有文件被更改
+git diff xx.xx				//查看文件被更改的内容
+git log					//查看历史记录 或 版本号
+git reset --hard HEAD^			//退回到上一个版本	（如果要回退到上上个版本只需把HEAD^ 改成 HEAD^^ 以此类推，如果要回退到前100个版本：git reset --hard HEAD~100）
+cat xx.xx					//查看文件内容
